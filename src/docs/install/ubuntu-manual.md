@@ -387,15 +387,15 @@ port: 3000
 
 # ● PostgreSQLの設定。
 db:
-  host: localhost
+  host: 'localhost'
   port: 5432
-  db  : mk1 # 〇 PostgreSQLのデータベース名
-  user: misskey # 〇 PostgreSQLのユーザー名
-  pass: hoge # ● PostgreSQLのパスワード
+  db  : 'mk1' # 〇 PostgreSQLのデータベース名
+  user: 'misskey' # 〇 PostgreSQLのユーザー名
+  pass: 'hoge' # ● PostgreSQLのパスワード
 
 # 　 Redisの設定。
 redis:
-  host: localhost
+  host: 'localhost'
   port: 6379
 
 # 　 IDタイプの設定。
@@ -403,7 +403,7 @@ id: 'aid'
 
 # 　 syslog
 syslog:
-  host: localhost
+  host: 'localhost'
   port: 514
 ```
 
